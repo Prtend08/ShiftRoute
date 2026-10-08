@@ -3,6 +3,7 @@ message: "If you use ShiftRoute, please cite this software and the associated ma
 title: "ShiftRoute: Diagnosis-Driven Routing to Reduce Negative Transfer in Continual Test-Time Adaptation"
 type: software
 version: 0.1.0
+repository-code: "https://github.com/Prtend08/ShiftRoute"
 authors:
   - family-names: Shen
     given-names: Shijiong
@@ -27,4 +28,3 @@ keywords:
   - label shift
   - negative transfer
   - computer vision
-

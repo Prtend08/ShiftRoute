@@ -129,8 +129,6 @@ with the final DOI and bibliographic record after publication.
 
 ## License status
 
-No reuse license is granted in this review package yet. Before making the
-repository public, all authors should approve and add an institutional-policy-
-compatible license (MIT is a common choice for academic code). A private GitHub
-upload is safe while that decision is pending.
-
+No reuse license has been granted yet. Public visibility alone does not
+authorize reuse. All authors should approve an institutional-policy-compatible
+license before one is added (MIT is a common choice for academic code).
