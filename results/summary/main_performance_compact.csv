@@ -1,0 +1,12 @@
+Dataset,Source acc. (%),Always-active,Comparator acc. (%),ShiftRoute acc. (%),Gain vs source (pp),Gain vs comparator (pp),NT reduction (pp)
+CIFAR10-C,87.92,Always representation,87.86,88.01,+0.089,+0.144,+7.15
+CIFAR10-C-raw,84.63,Tent,84.42,86.94,+2.312,+2.519,+35.46
+CIFAR100-C,65.86,Always representation,65.91,65.98,+0.120,+0.062,+2.55
+CIFAR100-C-raw,62.37,Tent,69.72,69.67,+7.295,-0.054,+32.07
+ImageNet-C-ConvNeXt,63.22,Always representation,63.07,63.05,-0.163,-0.016,+0.95
+ImageNet-C-R50,65.13,Always representation,65.12,65.12,-0.015,-0.006,-0.03
+ImageNet-C-ViT,65.96,Always representation,65.89,65.87,-0.096,-0.023,+0.39
+ImageNet100,95.17,Always representation,95.15,95.17,+0.003,+0.024,+1.44
+ImageNetV2-ConvNeXt,80.83,Always representation,80.85,80.83,-0.001,-0.023,+0.32
+ImageNetV2-R50,79.33,Always representation,79.32,79.33,-0.000,+0.003,+0.00
+ImageNetV2-ViT,79.30,Always representation,79.30,79.30,+0.002,-0.000,+1.20

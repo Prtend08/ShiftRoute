@@ -1,0 +1,64 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets, caches, models, and experiment outputs
+datasets/
+features/
+runs/
+results/*
+!results/summary/
+!results/summary/**
+checkpoints/
+logs/
+tmp/
+artifacts/
+output/
+outputs/
+_tmp_aggregate_check/
+node_modules/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.csv.gz
+*.log
+
+# Archives, executables, and LaTeX build products
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.exe
+*.aux
+*.out
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+

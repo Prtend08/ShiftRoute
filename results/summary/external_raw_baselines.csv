@@ -1,0 +1,13 @@
+Dataset,Method,Accuracy (%),Worst (%),NT >0.5 pp (%),Acc. vs SR (pp),NT vs SR (pp),Holm sig. acc./NT
+CIFAR10-C-raw,ShiftRoute + Tent,86.94,63.99,23.57,+0.00,+0.00,--
+CIFAR10-C-raw,ShiftRoute + ODS,85.11,60.99,8.07,-1.83,-15.49,exploratory
+CIFAR10-C-raw,Tent,84.42,63.38,59.03,-2.52,+35.46,yes/yes
+CIFAR10-C-raw,ETA,83.40,58.55,66.80,-3.54,+43.23,yes/yes
+CIFAR10-C-raw,SAR,83.62,64.10,67.14,-3.32,+43.58,yes/yes
+CIFAR10-C-raw,DeYO,83.95,62.05,62.85,-2.99,+39.28,yes/yes
+CIFAR10-C-raw,ODS,85.12,61.26,10.29,-1.82,-13.28,no/yes
+CIFAR100-C-raw,ShiftRoute + Tent,69.67,45.98,9.46,+0.00,+0.00,--
+CIFAR100-C-raw,Tent,69.72,56.80,41.54,+0.05,+32.07,no/yes
+CIFAR100-C-raw,ETA,68.63,54.15,45.40,-1.04,+35.94,yes/yes
+CIFAR100-C-raw,SAR,68.65,54.52,44.88,-1.02,+35.42,yes/yes
+CIFAR100-C-raw,DeYO,69.30,56.02,43.79,-0.37,+34.33,no/yes

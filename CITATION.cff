@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use ShiftRoute, please cite this software and the associated manuscript."
+title: "ShiftRoute: Diagnosis-Driven Routing to Reduce Negative Transfer in Continual Test-Time Adaptation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Shen
+    given-names: Shijiong
+    orcid: "https://orcid.org/0009-0009-3788-3445"
+  - family-names: Jia
+    given-names: Kexin
+    orcid: "https://orcid.org/0009-0006-8093-5464"
+  - family-names: Lu
+    given-names: Wenting
+  - family-names: Sui
+    given-names: Xin
+  - family-names: Kuan
+    given-names: Ta-Wen
+    orcid: "https://orcid.org/0000-0002-0789-3716"
+abstract: >-
+  Reference implementation of ShiftRoute, a diagnosis-driven controller that
+  routes streaming visual test windows among freeze, prior-only,
+  representation-only, and joint adaptation actions.
+keywords:
+  - continual test-time adaptation
+  - covariate shift
+  - label shift
+  - negative transfer
+  - computer vision
+

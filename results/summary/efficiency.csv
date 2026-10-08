@@ -1,0 +1,7 @@
+Dataset,Method,Prediction (ms/window),Update (ms/window),Peak GPU memory (MiB)
+CIFAR10-C-raw,Tent,9.86 ± 1.54,26.03 ± 4.18,2388.8 ± 2.0
+CIFAR10-C-raw,ShiftRoute + Tent,9.98 ± 1.70,12.26 ± 2.76,2388.8 ± 2.0
+CIFAR10-C-raw,Source (frozen),10.67 ± 1.77,0.22 ± 0.20,2388.8 ± 2.0
+CIFAR100-C-raw,Tent,10.57 ± 1.32,27.48 ± 2.87,2329.2 ± 6.4
+CIFAR100-C-raw,ShiftRoute + Tent,10.72 ± 1.27,12.33 ± 2.74,2329.2 ± 6.4
+CIFAR100-C-raw,Source (frozen),11.42 ± 1.49,0.24 ± 0.15,2329.2 ± 6.4
