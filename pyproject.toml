@@ -4,10 +4,24 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shiftroute"
-version = "0.1.0"
+version = "1.0.0"
 description = "Diagnosis-driven routing to reduce negative transfer in continual test-time adaptation."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Shijiong Shen", email = "2768962440@qq.com" },
+  { name = "Kexin Jia", email = "1583769972@qq.com" },
+  { name = "Wenting Lu", email = "2662640357@qq.com" },
+  { name = "Xinrong Zhu", email = "zhuxinrong@sandau.edu.cn" },
+  { name = "Xin Sui", email = "xsui@sandau.edu.cn" },
+  { name = "Ta-Wen KUAN", email = "dwguan@sandau.edu.cn" },
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+]
 dependencies = [
   "numpy>=1.24,<2",
   "torch>=2.0",

@@ -124,11 +124,17 @@ details. Invalid or configuration-mismatched runs are not included as evidence.
 
 ## Citation
 
-GitHub can generate citation metadata from `CITATION.cff`. Replace the citation
-with the final DOI and bibliographic record after publication.
+GitHub can generate citation metadata from `CITATION.cff`. Release `v1.0.0`
+corresponds to the code snapshot prepared with the manuscript submission.
+Replace the software-only citation with the final article DOI and bibliographic
+record after publication, and archive the tagged release if a software DOI is
+needed.
 
-## License status
+## Authors
 
-No reuse license has been granted yet. Public visibility alone does not
-authorize reuse. All authors should approve an institutional-policy-compatible
-license before one is added (MIT is a common choice for academic code).
+Shijiong Shen, Kexin Jia, Wenting Lu, Xinrong Zhu, Xin Sui, and Ta-Wen KUAN.
+
+## License
+
+ShiftRoute is released under the [MIT License](LICENSE). Copyright (c) 2026
+ShiftRoute authors.
